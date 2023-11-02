@@ -11,12 +11,16 @@ li{
   height:50px;
   width: 50px;
   vertical-align: middle;
-
+  border-color: black;
+  border: solid 1px;
   background-color:#000;
   border-radius:50%;
   margin-right:5px;
 }
 
+#white{
+  background-color:#FFF;
+}
 #red{
   background-color:#F00;
 }
@@ -35,6 +39,12 @@ li{
 #cyan{
   background-color:#0FF;
 }
+#black{
+  background-color:#000;
+}
+#someColoure{
+  color:rgb(129, 59, 59);
+}
 
 #canvas {
 	left:50%;
@@ -43,5 +53,6 @@ li{
 	position: absolute;
 	border-color: black;
 	border: solid 5px;
+  background-color:#FFF;
 }
 
