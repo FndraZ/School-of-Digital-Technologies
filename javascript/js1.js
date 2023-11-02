@@ -9,7 +9,7 @@ colorCircles[6] = document.getElementById("magenta");
 colorCircles[7] = document.getElementById("black");
 colorCircles[8] = document.getElementById("someColoure");
 
-var targetColor = "#F00";
+var targetColor = "#FFF";
 colorCircles[0].style.height = "80px";
 colorCircles[0].style.width = "80px";
 
